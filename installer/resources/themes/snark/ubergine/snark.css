@@ -44,8 +44,8 @@ body {
 }
 
 .page {
-     background: #323 url(images/tile2.png);
-     background: repeating-linear-gradient(to bottom, #1f081f 1px, #2b172f 1px, #1f081f 3px);
+     background: linear-gradient(135deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
+     background: -webkit-linear-gradient(-45deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
      margin: 5px 0 0 0;
      padding: 10px 10px 0;
      border-radius: 4px;
@@ -1094,7 +1094,7 @@ tr:hover .percentBarInner {
      background: url(images/infocircle.png) left center no-repeat;
      background-size: 14px auto;
      padding: 2px 2px 2px 18px;
-     display: inline-block; 
+     display: inline-block;
      margin-top: 5px;
 }
 
@@ -2212,7 +2212,8 @@ hr.debug + hr {
      background: #1f021f;
      padding: 0 10px 5px;
      padding: 0 0 4px;
-     background: linear-gradient(to right, rgba(30,0,30,0.4) 0%, rgba(55,0,55,0.5) 50%, rgba(30,0,30,0.4) 100%), url(images/tile2.png);
+     background: linear-gradient(135deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
+     background: -webkit-linear-gradient(-45deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
 }
 
 .dhtdebug th:first-child {

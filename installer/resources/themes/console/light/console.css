@@ -12,23 +12,15 @@ body {
      color: #33333f;
      font-size: 9pt;
      line-height: 130%;
-     background: #a4a4cb url(images/tile2.png) fixed;
-     background-size: 32px 32px;
+     background: linear-gradient(135deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
+     background: -webkit-linear-gradient(-45deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
 }
 
 /* preload button mouseovers */
 
 body {
-     background: url(images/tile2.png),
-     url(/themes/console/images/buttons/clean_hover.png) no-repeat,
-     url(/themes/console/images/buttons/configure_hover.png) no-repeat,
-     url(/themes/console/images/buttons/delete_hover.png) no-repeat,
-     url(/themes/console/images/buttons/restart_hover.png) no-repeat,
-     url(/themes/console/images/buttons/restore_hover.png) no-repeat,
-     url(/themes/console/images/buttons/search_hover.png) no-repeat,
-     url(/themes/console/images/buttons/shutdown_hover.png) no-repeat,
-     url(/themes/console/images/buttons/update_hover.png) no-repeat, #a4a4cb;
-     background-size: 32px 32px, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+    background: linear-gradient(135deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
+    background: -webkit-linear-gradient(-45deg, #9dabd5 0%,#265ea7 53%,#222187 76%,#323638 100%);
 }
 
 @supports (text-justify: auto) { /* Firefox 55+ */
@@ -2686,7 +2678,7 @@ div.appgroup {
      width: auto;
 }
 
-/* optional homepage search */ 
+/* optional homepage search */
 
 div.search {
      margin: 10px 10px 0 0;
@@ -2945,7 +2937,7 @@ p.infohelp, p#sybilinfo, p#debugmode, p#upnpstatus, p#pluginconfigtext, p#gather
      line-height: 130%;
 }
 
-p#upnpstatus, p#keyringhelp, .widescroll + p.infohelp, #profiles ul#banlist, #config_reseed .confignav + p.infohelp 
+p#upnpstatus, p#keyringhelp, .widescroll + p.infohelp, #profiles ul#banlist, #config_reseed .confignav + p.infohelp
 p#sybilinfo, p#debugmode, #config_family p.infohelp, p#profiles_overview, p#gatherstats {
      border-radius: 2px;
      filter: drop-shadow(0 0 1px #ccf);
@@ -8132,4 +8124,3 @@ th.options .optbox {
 }
 
 /* end chrome overrides */
-
